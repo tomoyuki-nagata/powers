@@ -57,16 +57,16 @@
     width: 70%;
 }
 
-.box {
+.block {
     position: relative;
 }
 
-.box .boxLeft {
+.block .blockLeft {
     position: absolute;
     left: 0;
 }
 
-.box .boxRight {
+.block .blockRight {
     position: absolute;
     right: 0;
 }
@@ -81,45 +81,45 @@
 
 }
 
-.foot {
+.box {
     background-color: #F8F9f9;
     border-radius: 10px;
     margin-bottom: 20px;
     padding: 20px 20px 10px 20px;
 }
 
-.foot .foot-block {
+.box .box-block {
     padding-top: 10px;
     padding-left: 10px;
 }
 
-.foot .foot-text {
+.box .box-text {
     font-size: 13px;
     font-weight: bold;
 }
 
-.foot a {
+.box a {
     text-decoration: none;
 }
 
-.foot .trainees {
+.box .box-trainees {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
 
-.foot .trainees .trainee {
+.box .box-trainees .box-trainee {
     width: 90px;
     margin: 5px;
 }
 
-.foot .trainees .trainee img {
+.box .box-trainees .box-trainee img {
     border-radius: 50%;
     width: 80px;
     height: 80px;
 }
 
-.foot .trainees .trainee .name {
+.box .box-trainees .box-trainee .name {
     font-size: 12px;
 }
 
